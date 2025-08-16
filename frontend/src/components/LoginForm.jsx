@@ -51,6 +51,7 @@ const LoginForm = () => {
         `${API_BASE_URL}/api/auth/login`,
         formData
       );
+
       localStorage.setItem("token", response.data.token);
       alert("Login successful!");
     } catch (err) {

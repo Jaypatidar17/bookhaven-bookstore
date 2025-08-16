@@ -6,7 +6,7 @@ const BookList = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const API_BASE_URL = "https://your-generated-domain.up.railway.app";
+  const API_BASE_URL = "https://bookhaven-bookstore-production.up.railway.app";
 
   useEffect(() => {
     const fetchBooks = async () => {
